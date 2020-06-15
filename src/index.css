@@ -1,0 +1,205 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #69369e;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+/* my code starts here*/
+
+.headerHolder {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: auto;
+  width: 100%;
+}
+.header {
+  max-width: 100%;
+  background-color: #989898;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  position: relative;
+  border-bottom: 2px solid black;
+
+}
+.name {
+  margin-left: 3%;
+  text-align: center;
+}
+nav {
+  width: 50%;
+  display: flex;
+}
+a {
+  justify-content: space-between;
+  margin: auto;
+  background-color: #232323;
+  color: #7951a8;
+  font-size: 22px;
+  font-weight: bolder;
+  padding: 10px;
+  border-radius: 50%;
+}
+a:hover {
+  background-color: white;
+  color: #232323;
+}
+.about {
+  margin: auto;
+  margin-bottom: 25px;
+  margin-top: 100px;;
+  background-color: #656565;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  padding: 2%;
+}
+.profilePic {
+  height: 300px;
+  width: 280px;
+  border: 10px solid black;
+  border-radius: 50%;
+}
+.center {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+}
+.skills {
+  width: 94%;
+  margin: auto;
+  background-color: #656565;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 20px;;
+}
+.skillsSection {
+  width: 100%;
+  text-align: center;
+  font-size: 35px;
+}
+.theList {
+  padding: 1%;
+  height: auto;
+  font-size: 25px;
+  font-weight: bold;
+  color: #7951a8;
+  background-color: #989898;
+  border-bottom: 1px solid black;
+  width: 22%;
+  border-radius: 10%;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+.theList:hover {
+  opacity: 0.7;
+}
+.headings {
+  text-decoration: underline;
+  text-align: center;
+}
+li {
+  border:1px solid gray;
+  text-decoration: none;
+  list-style: none;
+  padding: 1%;
+}
+li:hover {
+  background-color: black;
+  box-shadow: 2px 2px 3px 2px #69369e;
+  padding: 2%;
+  color: silver;
+}
+
+.projectHeading {
+  font-size: 35px;
+
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.projects {
+  display: flex;
+  margin: auto;
+  height: auto;
+  background-color: #989898;
+  width: 94%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.project {
+  padding: 2%;
+  margin: auto;
+  width:40%;
+  background-color: #656565;
+  margin-bottom: 20px;
+}
+
+.gitstats {
+  width: 60%
+}
+
+.projectTitle {
+  text-align: center;
+  font-size: 25px;
+}
+
+.picholder {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  background-color: #656565;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.contactTitle {
+  text-align: center;
+  font-size: 30px;;
+  width: 100%;
+}
+
+.icons {
+  margin: -10px 10px 10px 10px;
+}
+
+.gmail:hover {
+background-color: #B23121;
+padding: 2px;
+border-radius: 50%;
+}
+
+.twitter:hover {
+  background-color: #1DA1F2;
+  padding: 2px;
+  border-radius: 50%;
+}
+.linkedin:hover {
+  background-color: #0072b1;
+  padding: 5px;
+  border-radius: 50%;
+}
+.github:hover {
+  background-color: #7DBBE6;
+padding: 2px;
+border-radius: 50%;
+}
