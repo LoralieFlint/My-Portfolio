@@ -100,7 +100,7 @@ function App() {
               development, and look forward to being your next full-stack web
               developer.
             </p>
-            <p>HTML, CSS, LESS, Javascript, React, Redux, Node.</p>
+            <p className="techstack">HTML, CSS, LESS, Javascript, React, Redux, Node.</p>
           </div>
         </div>
       </div>
@@ -159,7 +159,7 @@ function App() {
               alt=" git stats project"
             ></img>
           </div>
-          <p>
+          <p className="projectbio">
             On the other hand, we denounce with righteous indignation and
             dislike men who are so beguiled and demoralized by the charms of
             pleasure of the moment, so blinded by desire, that they cannot
@@ -179,7 +179,7 @@ function App() {
               alt=" git stats project"
             ></img>
           </div>
-          <p>
+          <p className="projectbio">
             On the other hand, we denounce with righteous indignation and
             dislike men who are so beguiled and demoralized by the charms of
             pleasure of the moment, so blinded by desire, that they cannot
@@ -199,7 +199,7 @@ function App() {
               alt=" git stats project"
             ></img>
           </div>
-          <p>
+          <p className="projectbio">
             On the other hand, we denounce with righteous indignation and
             dislike men who are so beguiled and demoralized by the charms of
             pleasure of the moment, so blinded by desire, that they cannot
@@ -219,7 +219,7 @@ function App() {
               alt=" git stats project"
             ></img>
           </div>
-          <p>
+          <p className="projectbio">
             On the other hand, we denounce with righteous indignation and
             dislike men who are so beguiled and demoralized by the charms of
             pleasure of the moment, so blinded by desire, that they cannot
@@ -233,22 +233,26 @@ function App() {
       </div>
       <div className="contact">
         <h4 className="contactTitle">Contact Me</h4>
-        <Gmail
+        <div className="icons"> 
+        <Gmail className="icon"
             href="https://mail.google.com/mail/?view=cm&fs=1&to=someone@gmail.com&su=subject_here&body=body_here" target="_blank_">
-            <i class="fa fa-google fa-3x " aria-hidden="true"></i>
+            <i class="fa fa-google fa-3x" aria-hidden="true"></i>
         </Gmail>
-        <Twitter href="https://twitter.com/LoralieFlint" target="_blank_">
+        <Twitter className="icon" href="https://twitter.com/LoralieFlint" target="_blank_">
           <i class="fa fa-twitter fa-3x twitter" aria-hidden="true"></i>
         </Twitter>
-        <Linkedin href="https://www.linkedin.com/in/loralie-flint/" target="_blank_">
+        <Linkedin className="icon" href="https://www.linkedin.com/in/loralie-flint/" target="_blank_">
         <i class="fa fa-linkedin-square fa-3x linkedin"aria-hidden="true"></i>
         </Linkedin>
-      <Github href="https://github.com/LoralieFlint" target="_blank_">
+      <Github className="icon" href="https://github.com/LoralieFlint" target="_blank_">
       <i class="fa fa-github fa-3x github" aria-hidden="true"></i>
       </Github>
-      <Fcc href="https://www.freecodecamp.org/laflint92" target="_blank_">
-      <i class="fa fa-free-code-camp fa-3x" aria-hidden="true"></i>
+      <Fcc className="icon" href="https://www.freecodecamp.org/laflint92" target="_blank_">
+      <i class="fa fa-free-code-camp fa-2x fcc" aria-hidden="true"></i>
       </Fcc>
+
+
+        </div>
       </div>
     </div>
   );

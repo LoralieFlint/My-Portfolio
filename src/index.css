@@ -47,6 +47,7 @@ a {
   font-weight: bolder;
   padding: 10px;
   border-radius: 50%;
+  text-decoration: none;
 }
 a:hover {
   background-color: white;
@@ -77,6 +78,12 @@ a:hover {
   width: 50%;
   flex-direction: column;
   justify-content: center;
+}
+.center p {
+  font-size: 18px;
+}
+.techstack {
+  font-weight: bold;
 }
 .skills {
   width: 94%;
@@ -152,6 +159,9 @@ li:hover {
   padding: 2%;
   color: silver;
 }
+.projectbio {
+  font-size: 20px;
+}
 .gitstats {
   width: 60%
 }
@@ -176,4 +186,318 @@ li:hover {
   text-align: center;
   font-size: 30px;;
   width: 100%;
+}
+
+/* breakpoints */
+/* tablet */
+@media only screen and (max-width: 800px) {
+  .headerHolder {
+    position: absolute;
+    margin: auto;
+    width: 100%;
+  }
+  .header {
+    width: 100%;
+    background-color: silver;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    border-bottom: 2px solid black;
+  }
+  .name {
+    width: 55%;
+    margin: auto;    
+    color: #69369E;
+    margin-bottom: 20px;
+  }
+  nav {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  a {
+    justify-content: space-between;
+    margin: auto;
+    background-color: #989898;
+    color: black;
+    font-size: 22px;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+  .about {
+    margin: auto;
+    margin-bottom: 25px;
+    margin-top: 180px;;
+    background-color: silver;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2%;
+  }
+  .profilePic {
+    justify-content:center;
+    height: 400px;
+    border: 10px solid black;
+    border-radius: 50%;
+    margin: auto;
+  }
+  .center {
+    display: flex;
+    width: 80%;
+    margin: auto;
+  }
+  .aboutme {
+    padding-top: 40px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: #69369E;
+    font-size: 35px;
+  }
+  .center p {
+    font-size: 20px;
+  }
+  .skills {
+    width: 94%;
+    margin: auto;
+    background-color: silver;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;;
+  }
+  .skillsSection {
+    color: #69369E;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+  }
+  .theList {
+    padding: 1%;
+    height: auto;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #7951a8;
+    background-color: #989898;
+    border-bottom: 1px solid black;
+    width: 40%;
+    border-radius: 10%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 25px;;
+  }
+  .headings {
+    text-decoration: underline;
+    text-align: center;
+    color: #69369E;
+  }
+  li {
+    border:1px solid gray;
+    text-decoration: none;
+    list-style: none;
+    padding: 2%;
+  }
+  .projectHeading {
+    font-size: 35px;
+    color: #69369E;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .projects {
+    display: flex;
+    margin: auto;
+    height: auto;
+    background-color: silver;
+    width: 94%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  } 
+  .project {
+    padding: 2%;
+    margin: auto;
+    width:40%;
+    background-color: #989898;
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+    width: 80%;
+  }
+}
+
+/* mobile */
+@media only screen and (max-width: 500px) {
+  .headerHolder {
+    margin: auto;
+    max-width: 100%;
+  }
+  .header {
+    width: 100%;
+    background-color: silver;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    border-bottom: 2px solid black;
+  }
+  .name {
+    width: 55%;
+    margin: auto;    
+    color: #69369E;
+    margin-bottom: 20px;
+  }
+  nav {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  a {
+    justify-content: space-between;
+    margin: auto;
+    background-color: #989898;
+    color: black;
+    font-size: 22px;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 50%;
+    border-bottom: 2px solid black;;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+  .about {
+    margin: auto;
+    margin-bottom: 25px;
+    margin-top: 330px;;
+    background-color: silver;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2%;
+  }
+  .profilePic {
+    justify-content:center;
+    height: 400px;
+    border: 10px solid black;
+    border-radius: 50%;
+    margin: auto;
+  }
+  .center {
+    display: flex;
+    width: 80%;
+    margin: auto;
+  }
+  .aboutme {
+    padding-top: 40px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: #69369E;
+    font-size: 35px;
+  }
+  .center p {
+    font-size: 20px;
+  }
+  .skills {
+    width: 94%;
+    margin: auto;
+    background-color: silver;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;;
+  }
+  .skillsSection {
+    color: #69369E;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+  }
+  .theList {
+    padding: 1%;
+    height: auto;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #7951a8;
+    background-color: #989898;
+    border-bottom: 1px solid black;
+    width: 85%;
+    margin: auto;
+    border-radius: 10%;
+    flex-wrap: wrap;
+    margin-bottom: 25px;;
+  }
+  .headings {
+    text-decoration: underline;
+    text-align: center;
+    color: #69369E;
+  }
+  li {
+    border:1px solid gray;
+    text-decoration: none;
+    list-style: none;
+    padding: 2%;
+  }
+  .projectHeading {
+    font-size: 35px;
+    color: #69369E;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .projects {
+    display: flex;
+    margin: auto;
+    height: auto;
+    background-color: silver;
+    width: 94%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  } 
+  .project {
+    padding: 2%;
+    margin: auto;
+    width:40%;
+    background-color: #989898;
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+    width: 80%;
+  }
+  .contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    background-color: silver;
+    width: 100%;
+  }
+  .contactTitle {
+    color: #69369E;
+    text-align: center;
+    font-size: 30px;;
+    width: 100%;
+  }
+  .icons {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .icon {
+    width: 50%;
+    align-items: center;
+}
 }
