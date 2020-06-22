@@ -92,7 +92,8 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-bottom: 20px;;
+  margin-bottom: 20px;
+  
 }
 .skillsSection {
   color: #69369E;
@@ -102,7 +103,7 @@ a:hover {
 }
 .theList {
   padding: 1%;
-  height: auto;
+  height: 10%;;
   font-size: 25px;
   font-weight: bold;
   color: #7951a8;
@@ -116,6 +117,7 @@ a:hover {
 .headings {
   text-decoration: underline;
   text-align: center;
+  height:auto;
 }
 li {
   border:1px solid gray;
