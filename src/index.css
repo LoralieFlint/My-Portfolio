@@ -38,7 +38,8 @@ nav {
   width: 50%;
   display: flex;
 }
-a {
+.anchor {
+  cursor: pointer;
   justify-content: space-between;
   margin: auto;
   background-color: #989898;
@@ -49,7 +50,8 @@ a {
   border-radius: 50%;
   text-decoration: none;
 }
-a:hover {
+.anchor:hover {
+  cursor: pointer;
   background-color: white;
   color: #7951a8;
 }
@@ -162,10 +164,17 @@ li:hover {
   color: silver;
 }
 .projectbio {
+  line-height: 1.9;
   font-size: 20px;
 }
 .gitstats {
-  width: 60%
+  width: 60%;
+  height: 40%;
+}
+.dv {
+  line-height: 2.0;
+  width: 60%;
+  height: 280px;
 }
 .projectTitle {
   text-align: center;
@@ -199,9 +208,24 @@ li:hover {
   }
 
 .button {
+  color: black; 
+  background-color: silver;
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 3px;
+}
+
+.button:hover {
+  color: black; 
+  background-color: blueviolet;
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 3px;
+}
+
+.b {
   color: black;
   font-weight: bolder;
-  padding: 5px;
 }
 
 

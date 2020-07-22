@@ -24,15 +24,15 @@ function ProjectSection () {
            along with liking a repository and it not affecting it on github.
            On this project there are 3 web devs and 3 data science students along the span of 3 months.
            some of the languages we used are React, ContextAPI, Postgres, Sequelize, and passportJS. <br/>
-           our application  <button href="https://commit-analysis.herokuapp.com/" target="_blank_" className="button">Application </button>  <br/>
-           our repository <button href="https://github.com/Lambda-School-Labs/github-commit-analysis-fe" target="_blank_" className="button">Github</button>
+           <b className="b">our application</b> <a href="https://commit-analysis.herokuapp.com/" className="button" target="_blank_">Application</a> <br/>
+           <b className="b">our repository</b> <a href="https://github.com/Lambda-School-Labs/github-commit-analysis-fe" target="_blank_" className="button">Github</a>
           </p>
-        </div>
+        </div>  
         <div className="project">
           <h5 className="projectTitle">domestic violence</h5>
           <div className="picholder">
             <img
-              className="gitstats"
+              className="dv"
               src={DomesticViolence}
               alt="domestic violence project"
             ></img>
@@ -40,9 +40,10 @@ function ProjectSection () {
           <p className="projectbio">
           This project is a calculator meant to help those dealing with domestic violence to see how much they can save or do in a month.
           In this project I was the only back end developer.
+          This application was built in 1 week
           Some of the tech stack used NodeJS, ExpressJS, Knex, sqLite3, and JTW (JSON Web Tokens). <br />
-          Our application  <button href="https://dvstbuild.netlify.app/login" target="_blank_" className="button">Application </button>  <br/>
-          My repository <button href="https://github.com/BW-Domestic-Violence-Survivors-Tool/backend/tree/Loralie-Flint" target="_blank_" className="button">Github</button>
+          <b className="b">Our application</b>  <a href="https://dvstbuild.netlify.app/login" target="_blank_" className="button">Application </a>  <br/>
+          <b className="b">My repository</b> <a href="https://github.com/BW-Domestic-Violence-Survivors-Tool/backend/tree/Loralie-Flint" target="_blank_" className="button">Github</a>
           </p>
         </div>
         <div className="project">
@@ -58,8 +59,8 @@ function ProjectSection () {
           My top nine was made to run off of the idea of myspace's top ten friends but to be able to connect through new friends with life catagories rather than the people you know.
           I was one of the two react developers, this project was one week long.
           some of the technologies we used are React, axios, Yup, and Formik.<br />
-          Our application  <button href="https://nifty-kepler-8c0c38.netlify.app/" target="_blank_" className="button">Application </button>  <br/>
-          Our repository <button href="https://github.com/Build-Week-My-Top-Nine/Front-End" target="_blank_" className="button">Github</button>
+          <b className="b">Our application</b>  <a href="https://nifty-kepler-8c0c38.netlify.app/" target="_blank_" className="button">Application </a>  <br/>
+          <b className="b">Our repository</b> <a href="https://github.com/Build-Week-My-Top-Nine/Front-End" target="_blank_" className="button">Github</a>
           </p>
         </div>
       </div>
