@@ -198,6 +198,12 @@ li:hover {
     margin: 0px 15px 0px 15px;
   }
 
+.button {
+  color: black;
+  font-weight: bolder;
+  padding: 5px;
+}
+
 
 /* breakpoints */
 /* tablet */
@@ -578,4 +584,15 @@ li:hover {
     width: 300px;
     height:300px; 
   }
+}
+.projectLink {
+  justify-content: space-between;
+  margin: auto;
+  background-color: #989898;
+  color: black;
+  font-size: 22px;
+  font-weight: bolder;
+  padding: 10px;
+  border-radius: 50%;
+  text-decoration: none;
 }
